@@ -1,0 +1,39 @@
+{
+  "artistName": "Jiapa",
+  "title": "Digital Artist & Concept Illustrator",
+  "tagline": "Exploring atmospheric narratives, character soul, and creature design through digital painting.",
+  "bio": "I am an independent concept artist and illustrator focused on cinematic character design, evocative storytelling, and exploratory digital painting. My work oscillates between quiet atmospheric moments and high-intensity dynamic concepts, always seeking honesty in gesture, lighting, and textural rendering.",
+  "statement": "Art is a lens through which we render the unspoken. Every stroke balances shape language, value hierarchy, and emotional resonance to breathe life into imagined worlds.",
+  "location": "Jakarta, Indonesia",
+  "email": "contact@artistgallery.dev",
+  "tools": [
+    "Clip Studio Paint",
+    "Adobe Photoshop",
+    "Blender",
+    "ZBrush",
+    "Procreate",
+    "Wacom Cintiq Pro"
+  ],
+  "socialLinks": [
+    {
+      "name": "ArtStation",
+      "url": "https://artstation.com"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com"
+    },
+    {
+      "name": "Twitter / X",
+      "url": "https://x.com"
+    },
+    {
+      "name": "Cara",
+      "url": "https://cara.app"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com"
+    }
+  ]
+}

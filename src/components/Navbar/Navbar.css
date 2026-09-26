@@ -1,0 +1,215 @@
+.navbar-header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color var(--transition-medium), border-color var(--transition-medium), backdrop-filter var(--transition-medium);
+  border-bottom: 1px solid transparent;
+  background-color: rgba(7, 7, 9, 0.4);
+}
+
+.navbar-header.scrolled {
+  background-color: var(--bg-glass);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom-color: var(--border-subtle);
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 76px;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  letter-spacing: 0.22em;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.logo-symbol {
+  color: var(--text-accent);
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  color: var(--text-primary);
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  letter-spacing: 0.15em;
+  font-weight: 600;
+}
+
+.logo-sub {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  letter-spacing: 0.25em;
+  padding-left: 0.2rem;
+  border-left: 1px solid var(--border-subtle);
+}
+
+.desktop-nav {
+  display: flex;
+  align-items: center;
+  gap: 2.2rem;
+}
+
+.nav-link {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--text-secondary);
+  position: relative;
+  padding: 0.4rem 0;
+  font-weight: 500;
+  transition: color var(--transition-fast);
+}
+
+.nav-link:hover {
+  color: var(--text-primary);
+}
+
+.nav-link.active {
+  color: var(--text-accent);
+}
+
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--text-accent);
+  box-shadow: 0 0 10px var(--text-accent);
+}
+
+.mobile-toggle-btn {
+  display: none;
+  color: var(--text-primary);
+  padding: 0.5rem;
+  transition: color var(--transition-fast);
+}
+
+.mobile-toggle-btn:hover {
+  color: var(--text-accent);
+}
+
+/* Mobile Controls Wrapper */
+.mobile-controls {
+  display: none;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+/* Music Toggle Button */
+.music-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: var(--text-muted);
+  transition: color var(--transition-fast), background-color var(--transition-fast);
+  overflow: hidden;
+}
+
+.music-btn:hover {
+  color: var(--text-primary);
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.music-btn.playing {
+  color: var(--text-accent);
+  animation: music-pulse 2s ease-in-out infinite;
+}
+
+@keyframes music-pulse {
+  0%, 100% { filter: drop-shadow(0 0 4px var(--text-accent)); }
+  50% { filter: drop-shadow(0 0 10px var(--text-accent)); }
+}
+
+.music-btn-ripple {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.music-btn.playing .music-btn-ripple::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 1.5px solid var(--text-accent);
+  animation: music-ripple 2s ease-out infinite;
+  opacity: 0;
+}
+
+@keyframes music-ripple {
+  0% { transform: scale(0.7); opacity: 0.8; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+
+/* Mobile Dropdown Panel */
+.mobile-nav-panel {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-toggle-btn {
+    display: flex;
+  }
+
+  .mobile-controls {
+    display: flex;
+  }
+
+  .mobile-nav-panel {
+    display: block;
+    max-height: 0;
+    overflow: hidden;
+    background-color: var(--bg-surface);
+    border-bottom: 1px solid var(--border-subtle);
+    transition: max-height 0.35s ease, opacity 0.25s ease;
+    opacity: 0;
+  }
+
+  .mobile-nav-panel.open {
+    max-height: 320px;
+    opacity: 1;
+  }
+
+  .mobile-nav-links {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 2rem 2rem;
+    gap: 1.25rem;
+  }
+
+  .mobile-nav-link {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--text-secondary);
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  }
+
+  .mobile-nav-link.active {
+    color: var(--text-accent);
+    font-weight: 600;
+  }
+}

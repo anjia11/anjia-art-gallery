@@ -1,0 +1,230 @@
+.gallery-page {
+  position: relative;
+}
+
+.gallery-header {
+  margin-bottom: 2.5rem;
+  max-width: 650px;
+}
+
+.gallery-title {
+  font-size: clamp(2.5rem, 5vw, 3.8rem);
+  margin-bottom: 0.75rem;
+}
+
+.gallery-subtitle {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* Controls Bar */
+.gallery-controls-card {
+  padding: 1.75rem;
+  border-radius: var(--radius-lg);
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.controls-top-row {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.search-input-wrapper {
+  position: relative;
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 1.25rem;
+  color: var(--text-muted);
+  pointer-events: none;
+}
+
+.gallery-search-input {
+  width: 100%;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  border-radius: var(--radius-pill);
+  padding: 0.85rem 3rem 0.85rem 3rem;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.gallery-search-input:focus {
+  border-color: var(--text-accent);
+  box-shadow: 0 0 15px rgba(212, 175, 105, 0.15);
+}
+
+.search-clear-btn {
+  position: absolute;
+  right: 1.25rem;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+}
+
+.search-clear-btn:hover {
+  color: var(--text-primary);
+}
+
+.sort-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.sort-icon {
+  position: absolute;
+  left: 1.1rem;
+  color: var(--text-accent);
+  pointer-events: none;
+}
+
+.gallery-sort-select {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  padding: 0.85rem 1.5rem 0.85rem 2.8rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.88rem;
+  outline: none;
+  cursor: pointer;
+  transition: border-color var(--transition-fast);
+}
+
+.gallery-sort-select:focus {
+  border-color: var(--text-accent);
+}
+
+/* Category Pills */
+.categories-pill-row {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.filter-pill-label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.pills-scroll-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.category-pill {
+  font-size: 0.82rem;
+  padding: 0.45rem 1rem;
+  border-radius: var(--radius-pill);
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  transition: all var(--transition-fast);
+}
+
+.category-pill:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: var(--text-primary);
+}
+
+.category-pill.active {
+  background-color: var(--text-accent);
+  border-color: var(--text-accent);
+  color: var(--bg-primary);
+  font-weight: 600;
+}
+
+/* Secondary Filter Row */
+.controls-secondary-row {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding-top: 0.5rem;
+}
+
+.filter-dropdown-group {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.filter-dropdown-label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+}
+
+.gallery-filter-select {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  padding: 0.45rem 1rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.82rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.gallery-filter-select:focus {
+  border-color: var(--text-accent);
+}
+
+.reset-filters-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  border: 1px dashed var(--border-medium);
+  padding: 0.45rem 0.85rem;
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-fast);
+}
+
+.reset-filters-btn:hover {
+  color: var(--text-accent);
+  border-color: var(--text-accent);
+}
+
+.results-counter {
+  margin-left: auto;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.results-counter span {
+  color: var(--text-accent);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .results-counter {
+    margin-left: 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,37 @@
+.collections-page {
+  position: relative;
+}
+
+.collections-header {
+  margin-bottom: 3rem;
+  max-width: 650px;
+}
+
+.collections-title {
+  font-size: clamp(2.5rem, 5vw, 3.8rem);
+  margin-bottom: 0.75rem;
+}
+
+.collections-subtitle {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.collections-full-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--grid-gap);
+}
+
+@media (max-width: 1024px) {
+  .collections-full-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .collections-full-grid {
+    grid-template-columns: 1fr;
+  }
+}

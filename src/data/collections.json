@@ -1,0 +1,32 @@
+[
+  {
+    "id": "characters",
+    "name": "Characters",
+    "description": "Original character designs, evocative portraiture, and narrative persona explorations.",
+    "coverImage": "/images/camelia.png"
+  },
+  {
+    "id": "concept-art",
+    "name": "Concept Art",
+    "description": "World-building, costume sheets, action silhouettes, and cinematic storytelling concepts.",
+    "coverImage": "/images/cw3.png"
+  },
+  {
+    "id": "illustrations",
+    "name": "Illustrations",
+    "description": "Finished narrative illustrations exploring rich lighting, emotional depth, and atmosphere.",
+    "coverImage": "/images/payung.png"
+  },
+  {
+    "id": "creatures",
+    "name": "Creatures",
+    "description": "Explorations of organic anatomy, mythical beings, and whimsical subterranean fauna.",
+    "coverImage": "/images/mole.png"
+  },
+  {
+    "id": "studies",
+    "name": "Studies & Process",
+    "description": "Life drawing, structural anatomy, gestural sketches, and exploratory speedpaints.",
+    "coverImage": "/images/potert2.png"
+  }
+]

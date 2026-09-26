@@ -1,0 +1,467 @@
+[
+  {
+    "id": "camelia-reverie",
+    "title": "Camelia's Reverie",
+    "description": "An evocative piece portraying delicate emotional nuance through subtle lighting, floral motifs, and detailed textural brushwork.",
+    "year": 2026,
+    "category": "Character",
+    "collections": [
+      "characters",
+      "illustrations"
+    ],
+    "tags": [
+      "portrait",
+      "camelia",
+      "moody",
+      "botanical",
+      "digital-painting"
+    ],
+    "tools": [
+      "Clip Studio Paint",
+      "Photoshop",
+      "Wacom Cintiq"
+    ],
+    "featured": true,
+    "images": {
+      "thumbnail": "/images/camelia.png",
+      "preview": "/images/camelia.png",
+      "full": "/images/camelia.png"
+    },
+    "process": [
+      {
+        "title": "Initial Pose & Value",
+        "image": "/images/hand_wip.png",
+        "description": "Studying anatomy gesture and soft values before rendering floral elements."
+      },
+      {
+        "title": "Color & Detail Pass",
+        "image": "/images/camelia.png",
+        "description": "Building chromatic depth, eye reflections, and velvety highlights."
+      }
+    ]
+  },
+  {
+    "id": "crimson-wanderer-iii",
+    "title": "The Crimson Wanderer III",
+    "description": "The culminating phase of the Wanderer character concept, exploring cinematic silhouette, dynamic cape movement, and mystic atmosphere.",
+    "year": 2026,
+    "category": "Concept Art",
+    "collections": [
+      "characters",
+      "concept-art"
+    ],
+    "tags": [
+      "concept-art",
+      "crimson",
+      "character-design",
+      "cinematic"
+    ],
+    "tools": [
+      "Photoshop",
+      "Procreate"
+    ],
+    "featured": true,
+    "images": {
+      "thumbnail": "/images/cw3.png",
+      "preview": "/images/cw3.png",
+      "full": "/images/cw3.png"
+    },
+    "process": [
+      {
+        "title": "Phase 1 - Silhouette Exploration",
+        "image": "/images/cw.png",
+        "description": "Rough tonal silhouette blocking and weapon stance balance."
+      },
+      {
+        "title": "Phase 2 - Form & Value Refinement",
+        "image": "/images/cw2.png",
+        "description": "Refining armor seams, costume drapery, and local color accents."
+      },
+      {
+        "title": "Phase 3 - Polish & Lighting Effects",
+        "image": "/images/cw3.png",
+        "description": "Final cinematic atmosphere, particle haze, and rim lighting."
+      }
+    ]
+  },
+  {
+    "id": "klein-awakening",
+    "title": "Klein's Awakening",
+    "description": "A character illustration steeped in mystery, focusing on expressive eyes and intricate hair rendering with striking contrast.",
+    "year": 2025,
+    "category": "Character",
+    "collections": [
+      "characters",
+      "illustrations"
+    ],
+    "tags": [
+      "klein",
+      "gothic",
+      "portrait",
+      "lighting"
+    ],
+    "tools": [
+      "Clip Studio Paint",
+      "Photoshop"
+    ],
+    "featured": true,
+    "images": {
+      "thumbnail": "/images/klein.png",
+      "preview": "/images/klein.png",
+      "full": "/images/klein.png"
+    },
+    "process": [
+      {
+        "title": "Rough Concept",
+        "image": "/images/klein.png",
+        "description": "Focusing on the gaze intensity and rim light structure."
+      }
+    ]
+  },
+  {
+    "id": "subterranean-mole",
+    "title": "Subterranean Guardian",
+    "description": "A fantastical creature design blending subterranean creature anatomy with stylized texture sculpting and warm rim lighting.",
+    "year": 2025,
+    "category": "Creature",
+    "collections": [
+      "creatures",
+      "concept-art"
+    ],
+    "tags": [
+      "creature",
+      "subterranean",
+      "mole",
+      "organic",
+      "fantasy"
+    ],
+    "tools": [
+      "ZBrush",
+      "Photoshop"
+    ],
+    "featured": true,
+    "images": {
+      "thumbnail": "/images/mole.png",
+      "preview": "/images/mole.png",
+      "full": "/images/mole.png"
+    },
+    "process": [
+      {
+        "title": "Sculpt & Render",
+        "image": "/images/mole.png",
+        "description": "Anatomy definition and organic skin texturing in subterranean environment."
+      }
+    ]
+  },
+  {
+    "id": "payung-in-the-rain",
+    "title": "Silhouette Under the Parasol",
+    "description": "A poetic visual narrative capturing a quiet figure under a traditional umbrella amidst an ambient atmospheric drizzle.",
+    "year": 2025,
+    "category": "Illustration",
+    "collections": [
+      "illustrations",
+      "concept-art"
+    ],
+    "tags": [
+      "rain",
+      "payung",
+      "moody",
+      "umbrella",
+      "nostalgia",
+      "cinematic"
+    ],
+    "tools": [
+      "Clip Studio Paint",
+      "Photoshop"
+    ],
+    "featured": false,
+    "images": {
+      "thumbnail": "/images/payung.png",
+      "preview": "/images/payung.png",
+      "full": "/images/payung.png"
+    },
+    "process": [
+      {
+        "title": "Atmosphere Pass",
+        "image": "/images/payung.png",
+        "description": "Balancing the back-lit raindrops and atmospheric depth."
+      }
+    ]
+  },
+  {
+    "id": "dual-companions",
+    "title": "The Companions",
+    "description": "Dual character relationship exploration capturing subtle intimacy, complementary costume aesthetics, and narrative chemistry.",
+    "year": 2025,
+    "category": "Character",
+    "collections": [
+      "characters",
+      "illustrations"
+    ],
+    "tags": [
+      "duo",
+      "companions",
+      "storytelling",
+      "character-design"
+    ],
+    "tools": [
+      "Photoshop",
+      "Procreate"
+    ],
+    "featured": false,
+    "images": {
+      "thumbnail": "/images/duo.png",
+      "preview": "/images/duo.png",
+      "full": "/images/duo.png"
+    },
+    "process": [
+      {
+        "title": "Interaction Study",
+        "image": "/images/duo.png",
+        "description": "Balancing two figures in harmony with shared emotional gravity."
+      }
+    ]
+  },
+  {
+    "id": "ethereal-portrait-ii",
+    "title": "Ethereal Portrait Study II",
+    "description": "An expressive face study exploring delicate facial planes, specular skin highlights, and understated color palette.",
+    "year": 2026,
+    "category": "Study",
+    "collections": [
+      "studies",
+      "characters"
+    ],
+    "tags": [
+      "study",
+      "portrait",
+      "digital-sketch",
+      "face-planes"
+    ],
+    "tools": [
+      "Clip Studio Paint"
+    ],
+    "featured": false,
+    "images": {
+      "thumbnail": "/images/potert2.png",
+      "preview": "/images/potert2.png",
+      "full": "/images/potert2.png"
+    },
+    "process": [
+      {
+        "title": "Initial Value Base",
+        "image": "/images/potret.png",
+        "description": "First stage blocking of shadows and facial structure."
+      },
+      {
+        "title": "Refined Details & Expression",
+        "image": "/images/potert2.png",
+        "description": "Refined gaze, subtle mouth inflection, and atmospheric blending."
+      }
+    ]
+  },
+  {
+    "id": "ethereal-portrait-i",
+    "title": "Ethereal Portrait Study I",
+    "description": "The foundational sketch stage for the portrait series, highlighting gestural brush confidence and form carving.",
+    "year": 2026,
+    "category": "Study",
+    "collections": [
+      "studies"
+    ],
+    "tags": [
+      "study",
+      "portrait",
+      "sketch",
+      "gestural"
+    ],
+    "tools": [
+      "Clip Studio Paint"
+    ],
+    "featured": false,
+    "images": {
+      "thumbnail": "/images/potret.png",
+      "preview": "/images/potret.png",
+      "full": "/images/potret.png"
+    },
+    "process": [
+      {
+        "title": "Speedpaint Value Pass",
+        "image": "/images/potret.png",
+        "description": "Rapid blocking using large dry brushes."
+      }
+    ]
+  },
+  {
+    "id": "character-concept-sheet",
+    "title": "Character Concept Sheet",
+    "description": "Comprehensive character design breakdown sheet featuring costume anatomy, turnarounds, and design philosophy notes.",
+    "year": 2025,
+    "category": "Concept Art",
+    "collections": [
+      "concept-art",
+      "characters"
+    ],
+    "tags": [
+      "concept-sheet",
+      "costume",
+      "turnaround",
+      "design-notes"
+    ],
+    "tools": [
+      "Photoshop",
+      "Blender"
+    ],
+    "featured": false,
+    "images": {
+      "thumbnail": "/images/konsep_karakter.png",
+      "preview": "/images/konsep_karakter.png",
+      "full": "/images/konsep_karakter.png"
+    },
+    "process": [
+      {
+        "title": "Silhouette Lineup & Props",
+        "image": "/images/konsep_karakter.png",
+        "description": "Detailing accessories, fabrics, and functionality."
+      }
+    ]
+  },
+  {
+    "id": "whispering-rodent",
+    "title": "The Whispering Scout",
+    "description": "A whimsical yet eerie creature vignette exploring animal anatomy mixed with anthropomorphic storytelling.",
+    "year": 2025,
+    "category": "Creature",
+    "collections": [
+      "creatures",
+      "illustrations"
+    ],
+    "tags": [
+      "creature",
+      "rodent",
+      "storybook",
+      "whimsical",
+      "character"
+    ],
+    "tools": [
+      "Clip Studio Paint"
+    ],
+    "featured": false,
+    "images": {
+      "thumbnail": "/images/tikus.png",
+      "preview": "/images/tikus.png",
+      "full": "/images/tikus.png"
+    },
+    "process": [
+      {
+        "title": "Design Sketch",
+        "image": "/images/tikus.png",
+        "description": "Pencil brush characterization and expressive tail posture."
+      }
+    ]
+  },
+  {
+    "id": "anatomical-hand-study",
+    "title": "Anatomical Hand Study (WIP)",
+    "description": "An intensive gestural and structural study of hand proportions, tension, and joint articulation in motion.",
+    "year": 2026,
+    "category": "Study",
+    "collections": [
+      "studies"
+    ],
+    "tags": [
+      "anatomy",
+      "hand-study",
+      "wip",
+      "lineart",
+      "structural"
+    ],
+    "tools": [
+      "Photoshop"
+    ],
+    "featured": false,
+    "images": {
+      "thumbnail": "/images/hand_wip.png",
+      "preview": "/images/hand_wip.png",
+      "full": "/images/hand_wip.png"
+    },
+    "process": [
+      {
+        "title": "Linear Bones & Volumes",
+        "image": "/images/hand_wip.png",
+        "description": "Geometric volume analysis and knuckle landmarks."
+      }
+    ]
+  },
+  {
+    "id": "crimson-wanderer-ii",
+    "title": "The Crimson Wanderer II",
+    "description": "Intermediate rendering pass exploring local armor coloration, drapery folds, and secondary lighting.",
+    "year": 2026,
+    "category": "Concept Art",
+    "collections": [
+      "concept-art",
+      "characters"
+    ],
+    "tags": [
+      "wanderer",
+      "process",
+      "concept-art",
+      "armor"
+    ],
+    "tools": [
+      "Photoshop"
+    ],
+    "featured": false,
+    "images": {
+      "thumbnail": "/images/cw2.png",
+      "preview": "/images/cw2.png",
+      "full": "/images/cw2.png"
+    },
+    "process": [
+      {
+        "title": "Pre-Rendering",
+        "image": "/images/cw.png",
+        "description": "Tone and mass placement."
+      },
+      {
+        "title": "Drapery & Armor Details",
+        "image": "/images/cw2.png",
+        "description": "Fabric folds and metallic gleam."
+      }
+    ]
+  },
+  {
+    "id": "crimson-wanderer-i",
+    "title": "The Crimson Wanderer I",
+    "description": "The initial gestural thumbnail exploration focusing on silhouette read, dynamic weight distribution, and costume shape language.",
+    "year": 2026,
+    "category": "Concept Art",
+    "collections": [
+      "concept-art"
+    ],
+    "tags": [
+      "wanderer",
+      "silhouette",
+      "concept-art",
+      "study"
+    ],
+    "tools": [
+      "Photoshop"
+    ],
+    "featured": false,
+    "images": {
+      "thumbnail": "/images/cw.png",
+      "preview": "/images/cw.png",
+      "full": "/images/cw.png"
+    },
+    "process": [
+      {
+        "title": "Initial Silhouette",
+        "image": "/images/cw.png",
+        "description": "Broad shapes and action pose."
+      }
+    ]
+  }
+]

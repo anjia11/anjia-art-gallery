@@ -1,0 +1,101 @@
+.collection-detail-page {
+  position: relative;
+}
+
+.collection-hero-banner {
+  position: relative;
+  padding: 4rem 0 4.5rem;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.banner-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(50px) brightness(0.2);
+  transform: scale(1.1);
+}
+
+.banner-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 20%, var(--bg-primary) 100%);
+}
+
+.banner-container {
+  position: relative;
+  z-index: 1;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+  transition: color var(--transition-fast), transform var(--transition-fast);
+}
+
+.back-link:hover {
+  color: var(--text-accent);
+  transform: translateX(-4px);
+}
+
+.collection-header-meta {
+  max-width: 720px;
+}
+
+.collection-title {
+  font-size: clamp(2.8rem, 5.5vw, 4.2rem);
+  margin-bottom: 1rem;
+}
+
+.collection-description {
+  color: var(--text-secondary);
+  font-size: 1.15rem;
+  line-height: 1.7;
+  margin-bottom: 1.75rem;
+}
+
+.collection-stats {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding: 0.45rem 1rem;
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-pill);
+}
+
+.stats-count {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  color: var(--text-accent);
+  font-weight: 600;
+}
+
+.stats-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+}
+
+.collection-not-found {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
